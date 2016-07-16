@@ -2,7 +2,7 @@
 <html lang="en-US" ng-app="skeep">
 <head>
 	<meta charset="UTF-8">
-	<title>Name edit</title>
+	<title>{{appTitle}}</title>
 	<script type="text/javascript" src="lib/angular.js"></script>
 	<script type="text/javascript" src="lib/angular-route.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
@@ -13,8 +13,10 @@
 	<nav>
 		<div>
 			<div>
-				<span style="color:#5bdb48">click</span>
-				{{appTitle}}
+				<span><a href="#/">Home</a>|<a href="#/modify">Modify Form</a>|<a href="#/addRule">Add Tax Rule</a></span>
+				<br/>
+				<h1>{{appTitle}}</h1>
+				<br/>
 			</div>
 		</div>
 	</nav>
