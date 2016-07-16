@@ -1,0 +1,12 @@
+<div>
+	<div>
+		<a href="#/ping">Add Grocery List Item</a>
+	</div>
+	<div>
+		<ul style="color:#000000">
+			<li ng-repeat="item in groceryItems | orderBy:'date'">
+				{{item.itemName | uppercase}}
+			</li>
+		</ul>
+	</div>
+</div>
